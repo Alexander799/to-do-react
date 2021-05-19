@@ -1,8 +1,12 @@
-import ReactDOM from 'react';
-import React from 'react-dom';
+import React from 'react';
+import ReactDOM from 'react-dom';
 import Page from './components/Page/Page';
 
+function Main() {
+   return <Page />;
+}
+
 ReactDOM.render(
-   <Page />,
+   <Main />,
    document.getElementById('root')
 );
