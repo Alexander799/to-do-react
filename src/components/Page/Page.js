@@ -1,4 +1,5 @@
 import React from 'react';
+import './page.css';
 import Field from '../Field/Field';
 import UserInput from '../UserInput/UserInput';
 import ManagerBlock from '../ManagerBlock/ManagerBlock';
