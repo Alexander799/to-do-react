@@ -1,4 +1,5 @@
 import React from 'react';
+import './manager-block.css';
 
 export default class ManagerBlock extends React.Component {
    constructor(props) {

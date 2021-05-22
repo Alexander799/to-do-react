@@ -1,0 +1,16 @@
+.page__list-item {
+   display: flex;
+
+   align-items: center;
+}
+
+.page__complited-task {
+   transform: scale(1.5);
+}
+
+.page__task-text {
+   display: inline-block;
+   width: 100%;
+   margin-left: 0;
+   padding: 0.3em;
+}
