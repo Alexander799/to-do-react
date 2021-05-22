@@ -28,9 +28,9 @@ export default class ManagerBlock extends React.Component {
 
    render() {
       return (
-         <div>
-            <input type="button" value="Очистить" onClick={this.clearList} />
-            <input type="button" value="Сохранить" onClick={this.saveList} />
+         <div className="page__manager-block">
+            <input className="page__clear-list" type="button" value="Очистить" onClick={this.clearList} />
+            <input className="page__save-list" type="button" value="Сохранить" onClick={this.saveList} />
          </div>
       );
    }
