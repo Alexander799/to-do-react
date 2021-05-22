@@ -1,0 +1,23 @@
+.page__manager-block {
+   grid-column-start: 2;
+   grid-column-end: 3;
+   grid-row-start: 3;
+   grid-row-end: 4;
+   display: flex;
+   justify-content: space-between;
+   flex-grow: 1;
+}
+
+.page__clear-list {
+   flex-grow: 1;
+   font-size: 0.6em;
+   font-weight: bold;
+   text-transform: uppercase;
+}
+
+.page__save-list {
+   flex-grow: 1;
+   font-size: 0.6em;
+   font-weight: bold;
+   text-transform: uppercase;
+}

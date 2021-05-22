@@ -1,5 +1,6 @@
 import React from 'react';
 import LiItem from '../LiItem/LiItem';
+import './field.css';
 
 export default class Field extends React.Component {
    /* constructor(props) {

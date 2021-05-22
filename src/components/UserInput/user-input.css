@@ -3,4 +3,18 @@
    grid-column-end: 3;
    grid-row-start: 2;
    grid-row-end: 3;
+   display: flex;
+   justify-content: space-between;
+   flex-grow: 1;
+}
+
+.page__task-input {
+   flex-grow: 1.6;
+}
+
+.page__add-task {
+   flex-grow: 0.4;
+   font-size: 0.6em;
+   font-weight: bold;
+   text-transform: uppercase;
 }

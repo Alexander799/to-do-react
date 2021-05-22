@@ -1,4 +1,5 @@
 import React from 'react';
+import './li-item.css';
 
 export default class LiItem extends React.Component {
    constructor(props) {
